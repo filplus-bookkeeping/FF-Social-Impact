@@ -24,7 +24,7 @@
     "In which geographies do you plan on making storage deals": "North America, Europe, Australia (continent)",
     "How will you be distributing your data to storage providers": "HTTP or FTP server, Others",
     "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1. f02639429, United States",
-    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "No"
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
     "Type": "ldn-v3",
