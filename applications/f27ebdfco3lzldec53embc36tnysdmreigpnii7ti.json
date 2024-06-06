@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f27ebdfco3lzldec53embc36tnysdmreigpnii7ti",
+  "Issue Number": "6",
+  "Client": {
+    "Name": "NASA",
+    "Region": "United States",
+    "Industry": "Environment",
+    "Website": "https://gedi.umd.edu/data/products/",
+    "Social Media": "https://twitter.com/GEDI_Knights",
+    "Social Media Type": "Twitter",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "The EASIER Data initiative kicked off during the Summer 2022 and is a two-year project in collaboration with the Filecoin Foundation for the Decentralized Web to build pipelines for storing and extracting geospatial data on Filecoin and IPFS. We have onboarded a near 200+ TB (per replication) of Landsat 9 satellite data for a single year. Our pipeline development will utilize this content to prototype and demonstrate the capabilities of decentralized access of existing tools our team has built and tutorials that have been developed by the GEDI Science team.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "Yes",
+    "Describe the data being stored onto Filecoin": "Deployed to the ISS, the Global Ecosystem Dynamics Investigation (GEDI) mission is a full-waveform lidar instrument that makes detailed measurements of the 3D structure of the Earth’s surface. Lidar is an active remote sensing technology (the laser version of radar) which uses pulses of laser light to measure 3D structure. The light is reflected by the ground, vegetation and any clouds and is then collected by GEDI’s telescope. The sole GEDI observable is the waveform from which all other data products are derived. Signal processing is used to identify the ground within the waveform. The distribution of laser energy above the ground can be used to determine the height and density of objects within the footprint. The view geometry and active use of light by lidar allows the ground to be identified through small gaps in the tree canopy, enabling unsaturated measurements of much denser forests than is possible with either passive optical (such as spaceborne cameras) or short wavelength radar systems. In addition, uniquely amongst satellite remote sensing, the height and vertical distribution are direct measurements than can be compared to field observations.\r\n\r\nGEDI science data products include footprint and gridded data sets that describe the 3D features of the Earth in HDF5 and Geotiff format.\r\n\r\nAdditional details on the science objectives of GEDI can be found [here](https://gedi.umd.edu/science/objectives-overview/)",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We'll be preparing data using Singularity-V2 by using the inline preparation capability and content distribution will be accessible to storage providers through our hosted EC2 instance.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "The following is from Earthdata Search, containing a list of publicly available collections from the GEDI mission.\r\n\r\nhttps://search.earthdata.nasa.gov/search?fdc=Land%2BProcess%2BDistributed%2BActive%2BArchive%2BCenter%2B%2528LPDAAC%2529!Oak%2BRidge%2BNational%2BLaboratory%2BDistributed%2BActive%2BArchive%2BCenter%2B%2528ORNL%2BDAAC%2529&fpj=GEDI",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Weekly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "Permanently",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, North America, Europe, Australia (continent)",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02639429, United States",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "1.2PiB",
+    "Single Size Dataset": "300TiB",
+    "Replicas": 4,
+    "Weekly Allocation": "15TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-06-06 21:31:10.747330821 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f27ebdfco3lzldec53embc36tnysdmreigpnii7ti",
+    "Multisig Address": "true",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
