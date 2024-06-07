@@ -35,7 +35,7 @@
     "Weekly Allocation": "15TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ChangesRequested",
     "Validated At": "2024-06-06 21:36:39.837234482 UTC",
     "Validated By": "Sankara-Jefferson",
     "Active": true,
@@ -43,7 +43,7 @@
     "Active Request ID": "6af65d13-e6ea-481d-ab94-01ce79486f86",
     "On Chain Address": "f27ebdfco3lzldec53embc36tnysdmreigpnii7ti",
     "Multisig Address": "true",
-    "edited": true
+    "edited": false
   },
   "Allocation Requests": [
     {
