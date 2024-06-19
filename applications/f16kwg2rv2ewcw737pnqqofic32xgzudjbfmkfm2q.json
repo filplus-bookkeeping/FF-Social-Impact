@@ -20,22 +20,22 @@
     "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/HGSVC3/working/20220418_UW_HiFi/NA20847/m64076_220205_003337.hifi_reads.bam.pbi",
     "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
     "What is the expected retrieval frequency for this data": "Daily",
-    "For how long do you plan to keep this dataset stored on Filecoin": "Less than 1 year",
+    "For how long do you plan to keep this dataset stored on Filecoin": "12 months",
     "In which geographies do you plan on making storage deals": "North America",
-    "How will you be distributing your data to storage providers": "Lotus built-in data transfer",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "To be decided.",
+    "How will you be distributing your data to storage providers": "Singularity Content Provider",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "Milad : f02639429 (provider:Milad , wallet address: f02639429, Location: Austin/Texas)",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
     "Type": "ldn-v3",
     "Data Type": "Slingshot",
-    "Total Requested Amount": "50PiB",
-    "Single Size Dataset": "12.5PiB",
+    "Total Requested Amount": "400TB",
+    "Single Size Dataset": "100TB",
     "Replicas": 4,
     "Weekly Allocation": "15TiB"
   },
   "Lifecycle": {
-    "State": "AdditionalInfoRequired",
+    "State": "AdditionalInfoSubmitted",
     "Validated At": "",
     "Validated By": "",
     "Active": true,
