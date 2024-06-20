@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f16kwg2rv2ewcw737pnqqofic32xgzudjbfmkfm2q",
+  "Issue Number": "12",
+  "Client": {
+    "Name": "GenRAIT",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://www.genrait.com",
+    "Social Media": "https://x.com/genrait_inc",
+    "Social Media Type": "Twitter",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "We are a cloud-based software platform for the modern life sciences, where scientists can take omics projects from start to finish. We’re building infrastructure to make analysis, data mining, discovery, and the contextualization of results faster, inexpensive, and scalable (and that’s where the AI comes in)",
+    "Is this project associated with other projects/ecosystem stakeholders?": "Yes",
+    "Describe the data being stored onto Filecoin": "Genomic datasets of different populations around the world sourced from 1000genomes.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "The data will be prepared via Singularity's preparations.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/HGSVC3/working/20220418_UW_HiFi/NA20847/m64076_220205_003337.hifi_reads.bam.pbi",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Daily",
+    "For how long do you plan to keep this dataset stored on Filecoin": "12 months",
+    "In which geographies do you plan on making storage deals": "North America",
+    "How will you be distributing your data to storage providers": "Singularity Content Provider",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "Milad : f02639429 (provider:Milad , wallet address: f02639429, Location: Austin/Texas)",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "400TB",
+    "Single Size Dataset": "100TB",
+    "Replicas": 4,
+    "Weekly Allocation": "15TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-06-20 16:40:44.806710377 UTC",
+    "Validated By": "Sankara-Jefferson",
+    "Active": true,
+    "Updated At": "2024-06-20 16:43:24.781473218 UTC",
+    "Active Request ID": "b6804b58-f9aa-418c-b188-2ecf7fcc40d5",
+    "On Chain Address": "f16kwg2rv2ewcw737pnqqofic32xgzudjbfmkfm2q",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "b6804b58-f9aa-418c-b188-2ecf7fcc40d5",
+      "Request Type": "First",
+      "Created At": "2024-06-20 16:40:44.806718066 UTC",
+      "Updated At": "2024-06-20 16:40:44.806719388 UTC",
+      "Active": false,
+      "Allocation Amount": "2TiB",
+      "Signers": [
+        {
+          "Github Username": "Sankara-Jefferson",
+          "Signing Address": "f13kcetuvgmoebigp2efnpbiynmcpmenrspygwcpi",
+          "Created At": "2024-06-20 16:43:22.574000000 UTC",
+          "Message CID": "bafy2bzacecio5qyfzoiqncropqsivypnrs3xyhdsxkfct4czdk7dfyhsds3my"
+        }
+      ]
+    }
+  ]
+}
