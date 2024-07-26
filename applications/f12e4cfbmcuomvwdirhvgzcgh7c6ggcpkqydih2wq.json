@@ -35,11 +35,11 @@
     "Weekly Allocation": "1TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
+    "State": "Granted",
     "Validated At": "2024-07-26 17:53:06.235610080 UTC",
     "Validated By": "ianconsolata",
     "Active": true,
-    "Updated At": "2024-07-26 17:53:06.235614992 UTC",
+    "Updated At": "2024-07-26 17:54:01.195558100 UTC",
     "Active Request ID": "d95c5761-6f89-4c41-ab6e-636d8f8a5251",
     "On Chain Address": "f12e4cfbmcuomvwdirhvgzcgh7c6ggcpkqydih2wq",
     "Multisig Address": "false",
@@ -51,9 +51,16 @@
       "Request Type": "First",
       "Created At": "2024-07-26 17:53:06.235617597 UTC",
       "Updated At": "2024-07-26 17:53:06.235619797 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "1TiB",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "ianconsolata",
+          "Signing Address": "f1ufoy2xrgqtwbnykgm3a26pbbtahypucqrpfs7uy",
+          "Created At": "2024-07-26 17:53:59.604000000 UTC",
+          "Message CID": "bafy2bzacea746pccob3reupammsinorelt3rmvksw6zmmq4rqag3jbfqxytnu"
+        }
+      ]
     }
   ]
 }
