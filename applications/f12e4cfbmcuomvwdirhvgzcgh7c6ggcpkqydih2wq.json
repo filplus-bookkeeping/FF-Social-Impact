@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f12e4cfbmcuomvwdirhvgzcgh7c6ggcpkqydih2wq",
+  "Issue Number": "19",
+  "Client": {
+    "Name": "Harvard",
+    "Region": "United States",
+    "Industry": "Education & Training",
+    "Website": "https://lil.law.harvard.edu/",
+    "Social Media": "@HarvardLIL",
+    "Social Media Type": "Twitter",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "About LIL:\r\n==========\r\nWe are a software and design lab tucked inside the world's largest academic law library, building tools and communities for open knowledge. We build open-source software and web services, available to everyone and in the public interest, to explore and to solve emerging information problems from our shared perspective as librarians, programmers, artists, and lawyers. We currently support three long-running services ( Perma, H2O Open Casebook, and the Caselaw Access Project ) as well as a range of shorter term experiments.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "Yes",
+    "Describe the data being stored onto Filecoin": "About the datasets:\r\n===================\r\n\r\nWe are looking to onboard 4 datasets:\r\n\r\n* Google Books Archive: ~75TB\r\n* Caselaw Access Project: ~12TB (https://lil.law.harvard.edu/projects/caselaw-access-project/)\r\n* H20: <1TB (https://lil.law.harvard.edu/projects/h2o/)\r\n* Perma.cc: ~24TB (https://lil.law.harvard.edu/projects/perma-cc/)\r\n\r\nAt this time, we are looking for 1TB of DataCap for testing.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "I do not have samples with me at this time.  Links to 3 of the 4 datasources above point the way to public access data repositories though.",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[ ] I confirm",
+    "What is the expected retrieval frequency for this data": "Sporadic",
+    "For how long do you plan to keep this dataset stored on Filecoin": "Permanently",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, North America, Europe",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3)",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "I had some short discussions with a few providers via slack several months ago.  I would research again before selecting a final set.\r\n\r\nPlease share recommendations for SPs if you've got them.",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "500TiB",
+    "Single Size Dataset": "115TiB",
+    "Replicas": 4,
+    "Weekly Allocation": "1TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-07-26 17:50:13.457606882 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f12e4cfbmcuomvwdirhvgzcgh7c6ggcpkqydih2wq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
