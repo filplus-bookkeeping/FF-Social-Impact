@@ -35,11 +35,11 @@
     "Weekly Allocation": "15TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
+    "State": "Granted",
     "Validated At": "2024-05-23 15:59:30.737054927 UTC",
     "Validated By": "Sankara-Jefferson",
     "Active": true,
-    "Updated At": "2024-06-22 02:00:04.770511139 UTC",
+    "Updated At": "2024-10-03 16:17:03.011050552 UTC",
     "Active Request ID": "c085d786-003c-4242-b740-6003b3e9c935",
     "On Chain Address": "f1hnvljphtrpwb6pxszxoh7k57br7goo33s6b22ry",
     "Multisig Address": "true",
@@ -115,9 +115,16 @@
       "Request Type": "Refill",
       "Created At": "2024-06-22 02:00:04.770519825 UTC",
       "Updated At": "2024-06-22 02:00:04.770521239 UTC",
-      "Active": true,
-      "Allocation Amount": "60TiB",
-      "Signers": []
+      "Active": false,
+      "Allocation Amount": "30TiB",
+      "Signers": [
+        {
+          "Github Username": "Sankara-Jefferson",
+          "Signing Address": "f13kcetuvgmoebigp2efnpbiynmcpmenrspygwcpi",
+          "Created At": "2024-10-03 16:17:00.203000000 UTC",
+          "Message CID": "bafy2bzacedgjz5lmpnqady3js3tffgqoysp2c64uknts533mg5rqzeaj7kyfm"
+        }
+      ]
     }
   ]
 }
