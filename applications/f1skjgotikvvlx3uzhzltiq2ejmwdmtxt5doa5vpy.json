@@ -35,11 +35,11 @@
     "Weekly Allocation": "566TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-03-13 18:27:39.594749671 UTC",
+    "State": "Granted",
+    "Validated At": "2025-03-13 18:30:11.396196351 UTC",
     "Validated By": "ianconsolata",
     "Active": true,
-    "Updated At": "2025-03-13 18:27:39.594753341 UTC",
+    "Updated At": "2025-03-13 18:30:11.396192717 UTC",
     "Active Request ID": "009ea07f-d75a-4b1c-92f1-11518e9051d0",
     "On Chain Address": "f1skjgotikvvlx3uzhzltiq2ejmwdmtxt5doa5vpy",
     "Multisig Address": "false",
@@ -51,9 +51,16 @@
       "Request Type": "First",
       "Created At": "2025-03-13 18:27:39.594755328 UTC",
       "Updated At": "2025-03-13 18:27:39.594756161 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "500 TiB",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "ianconsolata",
+          "Signing Address": "f1ufoy2xrgqtwbnykgm3a26pbbtahypucqrpfs7uy",
+          "Created At": "2025-03-13 18:30:08.705000000 UTC",
+          "Message CID": "bafy2bzacedqnvawi5znmc5omze2gg5pmmsfnoudromvheez3noszebr5zqbsq"
+        }
+      ]
     }
   ]
 }
