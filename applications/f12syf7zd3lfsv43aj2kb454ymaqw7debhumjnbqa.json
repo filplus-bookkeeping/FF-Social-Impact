@@ -35,15 +35,25 @@
     "Weekly Allocation": "1TiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-04-18 21:23:38.093369152 UTC",
+    "Validated By": "Sankara-Jefferson",
     "Active": true,
-    "Updated At": "2025-04-18 21:23:13.241661997 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-04-18 21:23:38.093373212 UTC",
+    "Active Request ID": "13804cec-6347-41ac-9e15-4bdb0bdda75d",
     "On Chain Address": "f12syf7zd3lfsv43aj2kb454ymaqw7debhumjnbqa",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "13804cec-6347-41ac-9e15-4bdb0bdda75d",
+      "Request Type": "First",
+      "Created At": "2025-04-18 21:23:38.093374906 UTC",
+      "Updated At": "2025-04-18 21:23:38.093376094 UTC",
+      "Active": true,
+      "Allocation Amount": "536870912 B",
+      "Signers": []
+    }
+  ]
 }
