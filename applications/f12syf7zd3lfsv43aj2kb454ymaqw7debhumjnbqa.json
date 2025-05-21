@@ -22,7 +22,7 @@
     "What is the expected retrieval frequency for this data": "Monthly",
     "For how long do you plan to keep this dataset stored on Filecoin": "Permanently",
     "In which geographies do you plan on making storage deals": "North America",
-    "How will you be distributing your data to storage providers": "Shipping hard drives",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3)",
     "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1. SP ID : f02639429, Location : US.\n2. SP ID : f01786387, Location : Netherlands",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
@@ -32,7 +32,7 @@
     "Total Requested Amount": "20TiB",
     "Single Size Dataset": "20TiB",
     "Replicas": 4,
-    "Weekly Allocation": "1TiB"
+    "Weekly Allocation": "5TiB"
   },
   "Lifecycle": {
     "State": "Granted",
@@ -43,7 +43,7 @@
     "Active Request ID": "13804cec-6347-41ac-9e15-4bdb0bdda75d",
     "On Chain Address": "f12syf7zd3lfsv43aj2kb454ymaqw7debhumjnbqa",
     "Multisig Address": "false",
-    "edited": false
+    "edited": true
   },
   "Allocation Requests": [
     {
