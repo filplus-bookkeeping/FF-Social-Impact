@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1ouqzxw752y7yoxsoky7vdn7kn6bbkmgzh7u7cxi",
+  "Issue Number": "45",
+  "Client": {
+    "Name": "Flashback Labs",
+    "Region": "United States",
+    "Industry": "Web3 / Crypto",
+    "Website": "https://flashbacklabs.com/",
+    "Social Media": "https://x.com/FlashbackLabs",
+    "Social Media Type": "Twitter",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Flashback Labs is building a Federated Learning Network that lets users privately and decentrally train AI models using their photo & video memories on their phone using Flashback Mobile App. \n\nAll data stays on-phone or in the user’s own  bucket, protected by full access control and explicit consent. \n\nUsing Federated Learning, users contribute to AI training without exposing raw data. Each user trains privately inside a Trusted Execution Environment (TEE) and isolates sensitive data and computations from the rest of the system. \n\nTraining sessions and rewards are transparently upon the validators validate the training.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The data is stored on Filecoin’s decentralized network to support federated learning, ensuring that training datasets remain distributed, secure, and readily accessible for collaborative model training",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "Data will be prepared using Singularity",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "This data is confidential and cannot be shared.",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[ ] I confirm",
+    "What is the expected retrieval frequency for this data": "Daily",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1 to 1.5 years",
+    "In which geographies do you plan on making storage deals": "North America",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1.f02639429 (Milad, TX, US)\n2.f03468521 (DCENT, NL, US)",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "1PiB",
+    "Single Size Dataset": "50TB",
+    "Replicas": 4,
+    "Weekly Allocation": "20TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-06-26 18:44:04.834821935 UTC",
+    "Validated By": "Sankara-Jefferson",
+    "Active": true,
+    "Updated At": "2025-06-26 18:44:04.834817844 UTC",
+    "Active Request ID": "faf96855-6b3b-4161-b783-25a670cee413",
+    "On Chain Address": "f1ouqzxw752y7yoxsoky7vdn7kn6bbkmgzh7u7cxi",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "faf96855-6b3b-4161-b783-25a670cee413",
+      "Request Type": "First",
+      "Created At": "2025-06-26 18:41:34.731290952 UTC",
+      "Updated At": "2025-06-26 18:41:34.731292130 UTC",
+      "Active": false,
+      "Allocation Amount": "37580963840 B",
+      "Signers": [
+        {
+          "Github Username": "Sankara-Jefferson",
+          "Signing Address": "f13kcetuvgmoebigp2efnpbiynmcpmenrspygwcpi",
+          "Created At": "2025-06-26 18:44:03.106000000 UTC",
+          "Message CID": "bafy2bzacealnm56dljcjanaoygby74knkvfb6c7r3q32bksle6isgxacg2ygu"
+        }
+      ]
+    }
+  ]
+}
